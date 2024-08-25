@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürün Yönetim Sistemi</title>
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body onload="save()">
+    
+	<div class="top"><b>Son Kullanma Tarihleri</b></div>
+	
+	<div id="content_div" class="content">
+	
+	</div>
+	
+<div id="yes_no_bg" class="yes_no_bg">
+<center>
+<div class="yes_no">
+<div class="yes_no_top"><b>Silmek istediğine emin misin?</b></div>
+<div class="yes_no_bottom">
+<div class="yes_no_div_l yes_no_ac" onclick="sil_urun_iptal()"><div class="yes_no_lr"><b>İptal</b></div></div>
+<div class="yes_no_div_r yes_no_ac" onclick="sil_urun()"><div class="yes_no_lr"><b>Sil</b></div></div>
+</div>
+</div>
+</center>
+</div>
+	
+	<div id="ekle_btn" class="add_btn" onclick="go_urun()"><b>+</b></div>
+
+</body>
+</html>
